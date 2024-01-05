@@ -7,7 +7,7 @@ const HeroSection = () => {
         <div className="hero--section-content">
           <p className="section--title">Hey, I am Savas</p>
           <h1 className="hero--section--title">
-            <span className="hero--section--title--color">Front-end</span>{" "}
+            <span className="hero--section--title--color">Front-End</span>{" "}
             <br />
             Developer
           </h1>

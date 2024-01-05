@@ -1,0 +1,28 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src": "#",
+            "title": "HTML-CSS",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "id": "2",
+            "src": "#",
+            "title": "JavaScript",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "id": "3",
+            "src": "#",
+            "title": "React",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "id": "4",
+            "src": "#",
+            "title": "React Libraries",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+    ]
+}
