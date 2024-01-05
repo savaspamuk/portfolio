@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [navActive, setNavActive] = useState(false);
@@ -55,7 +55,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              to="heroSection"
+              to="HeroSection"
               className="navbar--content"
             >
               Home
