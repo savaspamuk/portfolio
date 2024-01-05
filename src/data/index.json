@@ -24,5 +24,28 @@
             "title": "React Libraries",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         }
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "#",
+            "title": "Ahuse",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "link": "View In Github"
+        },
+        {
+            "id": "2",
+            "src": "#",
+            "title": "App Dashboard",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "link": "View In Github"
+        },
+        {
+            "id": "3",
+            "src": "#",
+            "title": "Easy Rent",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "link": "View In Github"
+        }
     ]
 }
