@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import Logo from "../../assets/img/logo.png";
 
 const NavBar = () => {
   const [navActive, setNavActive] = useState(false);
@@ -35,7 +36,7 @@ const NavBar = () => {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="" alt="LOGO" />
+        <img src={Logo} alt="LOGO" />
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -67,21 +68,7 @@ const NavBar = () => {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
-              duration={500}
-              to="MyPortfolio"
-              className="navbar--content"
-            >
-              Portfolio
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
+              offset={-50}
               duration={500}
               to="AboutMe"
               className="navbar--content"
@@ -95,12 +82,26 @@ const NavBar = () => {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-50}
               duration={500}
-              to="Testimonials"
+              to="MySkills"
               className="navbar--content"
             >
-              Testimonials
+              My Skills
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+              to="MyPortfolio"
+              className="navbar--content"
+            >
+              Portfolio
             </Link>
           </li>
         </ul>
@@ -110,7 +111,7 @@ const NavBar = () => {
         activeClass="navbar--active-content"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={-90}
         duration={500}
         to="Contact"
         className="btn btn-outline-primary"

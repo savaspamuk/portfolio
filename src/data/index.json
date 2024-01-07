@@ -2,76 +2,50 @@
     "skills": [
         {
             "id": "1",
-            "src": "#",
+            "src": "https://divbyte.com/wp-content/uploads/2019/02/html-css.png",
             "title": "HTML-CSS",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "description": "Strong foundation in HTML and CSS, focused effort on improving skills. Consistently staying updated by following modern design trends and remaining open to learning and self-improvement are crucial aspects."
         },
         {
             "id": "2",
-            "src": "#",
+            "src": "https://divbyte.com/wp-content/uploads/2019/01/Javascript-development.png",
             "title": "JavaScript",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "description": "Enterence level in JavaScript, but commitment to continuous learning and self-improvement is evident. Projects experiences using JavaScript. Staying updated and remaining open to learning new things are ongoing priorities."
         },
         {
             "id": "3",
-            "src": "#",
+            "src": "https://divbyte.com/wp-content/uploads/2019/02/react-js-development-1.png",
             "title": "React",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "description": "Enterence level in React, focusing on skill improvement in this area. Working on projects using React with a basic understanding signifies ongoing efforts. Striving to acquire more knowledge remains a constant endeavor."
         },
         {
             "id": "4",
-            "src": "#",
+            "src": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*fEyeESs-HxVR7Zlr-fdlvw.png",
             "title": "React Libraries",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "description": "Foundational understanding of React libraries and familiarity in using various ones and integration into project development. The utilization of these libraries has significantly contributed to project improvement."
         }
     ],
     "portfolio": [
         {
             "id": "1",
-            "src": "#",
-            "title": "Ahuse",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "link": "View In Github"
+            "tools": "HTML, CSS and JavaScript",
+            "title": "Movie Finder",
+            "description": "The movie search website I developed using HTML, CSS, and JavaScript allows you to view film ratings, descriptions, and release dates. It offers quick and easy access through its user-friendly interface. This project was designed to showcase my passion for movies and web development skills.",
+            "link": "https://movie-search-app-lyart.vercel.app"
         },
         {
             "id": "2",
-            "src": "#",
+            "tools": "#",
             "title": "App Dashboard",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "link": "View In Github"
         },
         {
             "id": "3",
-            "src": "#",
+            "tools": "#",
             "title": "Easy Rent",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "link": "View In Github"
-        }
-    ],
-    "testimonials": [
-        {
-            "id": "1",
-            "count": "5",
-            "src": "#",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "author_name": "Dianne Russel",
-            "author_designation": "Starbucks"
-        },
-        {
-            "id": "2",
-            "count": "5",
-            "src": "#",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "author_name": "Dianne Russel",
-            "author_designation": "Luis Vuitton"
-        },
-        {
-            "id": "3",
-            "count": "5",
-            "src": "#",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "author_name": "Dianne Russel",
-            "author_designation": "McDonald's"
         }
     ]
 }

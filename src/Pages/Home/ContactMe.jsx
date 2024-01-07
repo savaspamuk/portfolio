@@ -1,88 +1,59 @@
 import React from "react";
+import GitHub from "../../assets/img/github.png";
+import Gmail from "../../assets/img/gmail.png";
+import Instagram from "../../assets/img/instagram.png";
+import LinkedIn from "../../assets/img/linkedin.png";
 
 const ContactMe = () => {
   return (
     <section className="contact--section" id="Contact">
       <div>
-        <p className="sub--title">Get In Touch</p>
-        <h2>Contact Me</h2>
+        <h2 className="contact--section--heading">
+          Contact<span> Me</span>
+        </h2>
         <p className="text-lg">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni unde
-          corrupti quisquam cum similique officiis odio illum quae inventore?
-          Sint?
+          You can reach me on the following platforms for contact:
         </p>
       </div>
-      <form className="contact--form-container">
-        <div className="container">
-          <label htmlFor="first-name" className="contact--label">
-            <span className="text-md">First Name</span>
-            <input
-              type="text"
-              className="contact--input text-md"
-              name="first-name"
-              id="first-name"
-              required
-            />
-          </label>
-          <label htmlFor="last-name" className="contact--label">
-            <span className="text-md">Last Name</span>
-            <input
-              type="text"
-              className="contact--input text-md"
-              name="last-name"
-              id="last-name"
-              required
-            />
-          </label>
-          <label htmlFor="email" className="contact--label">
-            <span className="text-md">E-mail</span>
-            <input
-              type="email"
-              className="contact--input text-md"
-              name="email"
-              id="email"
-              required
-            />
-          </label>
-          <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">Phone Number</span>
-            <input
-              type="number"
-              className="contact--input text-md"
-              name="phone-number"
-              id="phone-number"
-              required
-            />
-          </label>
+      <div className="contact--container">
+        <div className="contact--section--platform">
+          <a
+            id="profile-link"
+            href="https://github.com/savaspamuk"
+            target="_blank"
+            class="contact--details"
+          >
+            <img src={GitHub} alt="GitHub" />
+            GitHub
+          </a>
         </div>
-        <label htmlFor="choose-topic" className="contact--label">
-          <span className="text-md">Choose a topic</span>
-          <select id="choose-topic" className="contact--input text-md">
-            <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
-          </select>
-        </label>
-        <label htmlFor="message" className="contact--label">
-          <span className="text-md">Message</span>
-          <textarea
-            type="text"
-            className="contact--input text-md"
-            name="message"
-            id="message"
-            rows="8"
-            placeholder="Type your message..."
-          />
-        </label>
-        <label htmlFor="checkbox" className="checkbox--label">
-          <input type="checkbox" name="checkbox" id="checkbox" required />
-          <span className="text-sm">I accept the terms</span>
-        </label>
-        <div>
-          <button className="btn btn-primary contact--form--btn">Submit</button>
+        <div className="contact--section--platform">
+          <a
+            href="https://www.linkedin.com/in/savas-pamuk-0140582b/"
+            target="_blank"
+            class="contact--details"
+          >
+            <img src={LinkedIn} alt="LinkedIn" />
+            LinkedIn
+          </a>
         </div>
-      </form>
+        <div className="contact--section--platform">
+          <a
+            href="https://www.instagram.com/svspamuk/"
+            target="_blank"
+            class="contact--details"
+          >
+            <img src={Instagram} alt="Instagram" />
+            Instagram
+          </a>
+        </div>
+        <div className="contact--section--platform">
+          <a href="mailto:savaspamuk@gmail.com" class="contact--details">
+            <img src={Gmail} alt="Gmail" />
+            Gmail
+          </a>
+        </div>
+      </div>
     </section>
   );
 };

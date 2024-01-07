@@ -1,23 +1,40 @@
 import React from "react";
+import AboutMeImg from "../../assets/img/aboutme.jpg";
 
 const AboutMe = () => {
   return (
     <section id="AboutMe" className="about--section">
       <div className="about--section--img">
-        <img src="#" alt="About Me" />
+        <img src={AboutMeImg} alt="About Me" />
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <p className="section--title">About</p>
-          <h1 className="skills--seciton--heading">About Me</h1>
+          <h1 className="skills--section--heading">
+            About
+            <span> Me</span>
+          </h1>
           <p className="hero--section--description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
-            molestias maiores debitis, non eligendi voluptate recusandae tenetur
-            ducimus quis quod.
+            Passionate front-end web developer with a strong design inclination.
+            Organized and skilled in problem-solving with a pedagogy Ph.D.
+            background, enhancing learning agility. Proficient at swiftly
+            grasping and addressing web development challenges. Excels in
+            simplifying complex problems, showcasing creativity through design
+            approach.
           </p>
-          <p className="hero--section--description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            molestias similique cupiditate numquam sapiente nostrum!
+          <h3>Education</h3>
+          <p className="about--section--description">
+            2023 - Front-End Development from Code2Career BootCamp
+          </p>
+          <p className="about--section--description">
+            2014 - PH.D. in Science Education from Middle East Technical
+            University
+          </p>
+          <p className="about--section--description">
+            2007 - M.S. in Science Education from Middle East Technical
+            University
+          </p>
+          <p className="about--section--description">
+            2002 - Bachelor’s degree in Science Education from Gazi University
           </p>
         </div>
       </div>

@@ -33,13 +33,10 @@ const Footer = () => {
       <ul>
         <li>
           <Link
-            onClick={closeMenu}
-            activeClass="navbar--active-content"
-            spy={true}
             smooth={true}
             offset={-70}
             duration={500}
-            to="heroSection"
+            to="HeroSection"
             className="navbar--content"
           >
             Home
@@ -47,23 +44,6 @@ const Footer = () => {
         </li>
         <li>
           <Link
-            onClick={closeMenu}
-            activeClass="navbar--active-content"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            to="MyPortfolio"
-            className="navbar--content"
-          >
-            Portfolio
-          </Link>
-        </li>
-        <li>
-          <Link
-            onClick={closeMenu}
-            activeClass="navbar--active-content"
-            spy={true}
             smooth={true}
             offset={-70}
             duration={500}
@@ -75,16 +55,24 @@ const Footer = () => {
         </li>
         <li>
           <Link
-            onClick={closeMenu}
-            activeClass="navbar--active-content"
-            spy={true}
             smooth={true}
             offset={-70}
             duration={500}
-            to="Testimonials"
+            to="MySkills"
             className="navbar--content"
           >
-            Testimonials
+            My Skills
+          </Link>
+        </li>
+        <li>
+          <Link
+            smooth={true}
+            offset={-90}
+            duration={500}
+            to="MyPortfolio"
+            className="navbar--content"
+          >
+            Portfolio
           </Link>
         </li>
       </ul>
