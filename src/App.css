@@ -645,15 +645,29 @@ h3 {
     .btn-outline-primary {
       display: none;
     }
+
     .hero--section {
       display: flex;
       flex-direction: column-reverse;
-      padding-bottom: 70px;
+      padding: 100px 70px 50px;
     }
+
+    .section--title {
+        display: block;
+        margin: 0 0 20px;
+    }
+
+    .hero--section--description {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+
     .hero--section--title,
     .hero--section-description,
     .footer--content {
-      text-align: left;
+      text-align: center;
     }
 
     .about--section-description {
@@ -687,9 +701,13 @@ h3 {
     }
     .about--section {
       gap: 20px;
-      padding-top: 0;
-      padding-bottom: 0;
+      padding: 0 55px 0;
     }
+
+    .portfolio--section {
+        padding: 100px 50px 50px;
+    }
+
     .hero--section--title,
     .skills--section--heading,
     .portfolio--section--heading,

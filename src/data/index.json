@@ -36,14 +36,14 @@
         {
             "id": "2",
             "tools": "#",
-            "title": "App Dashboard",
+            "title": "Project-2",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "link": "View In Github"
         },
         {
             "id": "3",
             "tools": "#",
-            "title": "Easy Rent",
+            "title": "Project-3",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "link": "View In Github"
         }
