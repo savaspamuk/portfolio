@@ -35,17 +35,10 @@
         },
         {
             "id": "2",
-            "tools": "#",
+            "tools": "HTML, CSS and JavaScript, and React",
             "title": "Project-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "link": "View In Github"
-        },
-        {
-            "id": "3",
-            "tools": "#",
-            "title": "Project-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "link": "View In Github"
+            "description": "I am currently designing a dynamic automotive sales website using HTML, CSS, JavaScript, and React. The project encompasses comprehensive information about the vehicles available for sale, details about sales agencies, engaging blog posts from the automotive world, and essential contact information. The website is crafted with a responsive design, ensuring optimal user experience across various devices. Stay tuned for an immersive online platform that seamlessly combines cutting-edge technology with the passion for automobiles.",
+            "link": "https://car-sale-website.vercel.app"
         }
     ]
 }
