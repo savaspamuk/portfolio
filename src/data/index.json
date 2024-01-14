@@ -36,7 +36,7 @@
         {
             "id": "2",
             "tools": "HTML, CSS and JavaScript, and React",
-            "title": "Project-2",
+            "title": "Buy or Sell A Car",
             "description": "I am currently designing a responsive automotive sales website using React. The project provide information about the vehicles available for sale, sales agencies, some blog posts from the automotive world, and essential contact information. The website will support optimal user experience across various devices.",
             "link": "https://car-sale-website.vercel.app"
         }
